@@ -8,15 +8,15 @@ self.__precacheManifest = [
     "url": "/wakecap/static/js/runtime~main.ac24e064.js"
   },
   {
-    "revision": "dec1d06c382bdd8b82d7",
-    "url": "/wakecap/static/js/main.dec1d06c.chunk.js"
+    "revision": "25df5f854c3952dd6e3b",
+    "url": "/wakecap/static/js/main.25df5f85.chunk.js"
   },
   {
     "revision": "e305ea0216656ed950d9",
     "url": "/wakecap/static/js/1.e305ea02.chunk.js"
   },
   {
-    "revision": "018eb3ba655cc2842324deb48caebeec",
+    "revision": "ae6d24153ff2b7818152e0e0571b7c07",
     "url": "/wakecap/index.html"
   }
 ];
