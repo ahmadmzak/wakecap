@@ -4,11 +4,11 @@
 
 In the project directory, you can run:
 
-### `yarn`
+### `yarn` or `npm install`
 
 To install the dependencies.
 
-### `yarn start`
+### `yarn start` or `npm start`
 
 To run the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
