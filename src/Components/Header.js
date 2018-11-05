@@ -108,6 +108,7 @@ class Header extends Component {
                             anchorEl={anchorElSite}
                             open={Boolean(anchorElSite)}
                             onClose={this.handleClose("anchorElSite")}
+                            className={classes.menu}
                         >
                             <MenuItem
                                 onClick={this.handleClose("anchorElSite")}
@@ -138,6 +139,7 @@ class Header extends Component {
                             anchorEl={anchorElZone}
                             open={Boolean(anchorElZone)}
                             onClose={this.handleClose("anchorElZone")}
+                            className={classes.menu}
                         >
                             <MenuItem
                                 onClick={this.handleClose("anchorElZone")}
