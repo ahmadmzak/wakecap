@@ -70,7 +70,7 @@ const routes = [
 ];
 
 const fakeAuth = {
-    isAuthenticated: true,
+    isAuthenticated: false,
     authenticate(cb) {
         this.isAuthenticated = true;
         setTimeout(cb, 100); // fake async
@@ -88,14 +88,14 @@ const PrivateRoute = ({ component: Component, ...rest }) => (
             fakeAuth.isAuthenticated ? (
                 <Component {...props} />
             ) : (
-                <Redirect to="/" />
+                <Redirect to={process.env.PUBLIC_URL + "/"} />
             )
         }
     />
 );
 
 class App extends Component {
-    state = { loggedIn: true, dark: false };
+    state = { loggedIn: false, dark: false };
 
     handleLogin = () => {
         fakeAuth.authenticate(() => {
@@ -124,7 +124,7 @@ class App extends Component {
                     <Switch>
                         <Route
                             exact
-                            path="/"
+                            path={process.env.PUBLIC_URL + "/"}
                             render={props => (
                                 <LogIn
                                     {...props}
@@ -136,7 +136,7 @@ class App extends Component {
                         {routes.map((route, index) => (
                             <PrivateRoute
                                 key={route.text}
-                                path={route.link}
+                                path={process.env.PUBLIC_URL + route.link}
                                 component={props => (
                                     <Home
                                         {...props}

@@ -149,7 +149,7 @@ const LogIn = props => {
             </main>
         </div>
     ) : (
-        <Redirect to="/workers" />
+        <Redirect to={process.env.PUBLIC_URL + "/workers"} />
     );
 };
 
