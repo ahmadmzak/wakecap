@@ -23,7 +23,9 @@ class Home extends Component {
 
     handleListItemClick = (event, index) => {
         this.setState({ selectedIndex: index });
-        this.props.history.push(`${this.props.routes[index].link}`);
+        this.props.history.push(
+            `${process.env.PUBLIC_URL}${this.props.routes[index].link}`
+        );
     };
 
     render() {
