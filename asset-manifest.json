@@ -1,12 +1,12 @@
 {
-  "main.js": "/wakecap/static/js/main.0fdae234.chunk.js",
-  "main.js.map": "/wakecap/static/js/main.0fdae234.chunk.js.map",
+  "main.js": "/wakecap/static/js/main.00cc7538.chunk.js",
+  "main.js.map": "/wakecap/static/js/main.00cc7538.chunk.js.map",
   "static/js/1.e305ea02.chunk.js": "/wakecap/static/js/1.e305ea02.chunk.js",
   "static/js/1.e305ea02.chunk.js.map": "/wakecap/static/js/1.e305ea02.chunk.js.map",
   "runtime~main.js": "/wakecap/static/js/runtime~main.ac24e064.js",
   "runtime~main.js.map": "/wakecap/static/js/runtime~main.ac24e064.js.map",
   "static/media/logo.png": "/wakecap/static/media/logo.4ec6ec04.png",
   "index.html": "/wakecap/index.html",
-  "precache-manifest.d6d28de76b82b3d51fadacbd48c1655d.js": "/wakecap/precache-manifest.d6d28de76b82b3d51fadacbd48c1655d.js",
+  "precache-manifest.732cbd2576a8d2cc1a390a4568d57639.js": "/wakecap/precache-manifest.732cbd2576a8d2cc1a390a4568d57639.js",
   "service-worker.js": "/wakecap/service-worker.js"
 }
